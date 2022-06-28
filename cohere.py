@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Fixing random state for reproducibility
-np.random.seed(19680801)
+np.random.seed(19680809)
 
 dt = 0.01
 t = np.arange(0, 30, dt)
