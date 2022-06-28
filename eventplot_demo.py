@@ -33,6 +33,9 @@ fig, axs = plt.subplots(2, 2)
 axs[0, 0].eventplot(data1, colors=colors1, lineoffsets=lineoffsets1,
                     linelengths=linelengths1)
 
+# Something else has been added.
+# What else, I don't know.
+
 # create a vertical plot
 axs[1, 0].eventplot(data1, colors=colors1, lineoffsets=lineoffsets1,
                     linelengths=linelengths1, orientation='vertical')
